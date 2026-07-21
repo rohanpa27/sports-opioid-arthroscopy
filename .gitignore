@@ -1,0 +1,19 @@
+# NSQIP data must never be committed (restricted under the ACS data use agreement)
+*.pkl
+*.sav
+*.txt
+*.exe
+*.zip
+data/
+outputs/
+_cache/
+
+# python
+__pycache__/
+*.pyc
+
+# manuscripts
+*.docx
+
+# macOS
+.DS_Store

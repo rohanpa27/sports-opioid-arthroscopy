@@ -13,13 +13,13 @@ High-dose prescribing (a CDC-defined concern threshold) is mme_per_day >= 50.
 import numpy as np
 import pandas as pd
 
-# CDC 2022 / CMS standard oral MME conversion factors, keyed by the leading drug word in OPIOID_TYPE.
+# CDC 2022 (MMWR Recomm Rep 2022;71(3):31) oral MME conversion factors, keyed by the leading drug word in OPIOID_TYPE.
 MME_FACTOR = {
     "oxycodone": 1.5,
     "hydrocodone": 1.0,
-    "hydromorphone": 4.0,
+    "hydromorphone": 5.0,
     "codeine": 0.15,
-    "tramadol": 0.1,
+    "tramadol": 0.2,
     "oral morphine": 1.0,
     "morphine": 1.0,
     "oxymorphone": 3.0,
